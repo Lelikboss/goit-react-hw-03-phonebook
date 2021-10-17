@@ -1,0 +1,23 @@
+.list {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 1px solid #000;
+}
+.list li {
+  padding: 5px 10px;
+  list-style: circle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list li:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+.list li:nth-child(2n) {
+  background-color: beige;
+}
+.list li button {
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+.form label {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.form label span {
+  margin-bottom: 10px;
+}
+.form button {
+  width: 150px;
+}
+input:focus-visible {
+  outline: lightskyblue auto 1px;
+}
